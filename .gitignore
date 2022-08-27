@@ -6,10 +6,11 @@ dist
 tools
 
 # 源码
+source-code
 code
 
 # 创建的项目源码及案例
-case
+!case
 
 # 书籍
 books

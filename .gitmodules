@@ -1,0 +1,33 @@
+#####
+# IT Computer FrontEnd
+#####
+
+# 1. runtime-environment
+
+[submodule "runtime-environment"]
+	path = 01-runtime-environment
+	url = https://github.com/xk-yuan/it-front-end-runtime-environment.git
+
+# 2. programming-language
+
+[submodule "programming-language"]
+	path = 02-programming-language
+	url = https://github.com/xk-yuan/it-front-end-programming-language.git
+
+# 3. lang-fw
+
+[submodule "lang-fw"]
+	path = 03-lang-fw
+	url = https://github.com/xk-yuan/it-front-end-lang-fw.git
+
+## electron
+
+[submodule "electron-case-helloword"]
+	path = 03-lang-fw/electron/case/electron-case-helloword
+	url = https://github.com/xk-yuan/it-front-end-electron-case-helloword.git
+
+# 4. third-party
+
+[submodule "third-party"]
+	path = 04-third-party
+	url = https://github.com/xk-yuan/it-front-end-third-party.git

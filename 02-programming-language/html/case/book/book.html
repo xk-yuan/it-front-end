@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <style>
+        .book-chapter-section-paragraph-row {
+            /**
+             * normal    浏览器中的默认换行行为
+             * break-all 可允许在单词内换行
+             * keep-all  只能在半角空格或连字符处进行换行
+             */
+            word-break: keep-all;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="book-1" class="book" data-book="1">
+        <div class="book-chapter" data-book-chapter=1>
+            <div class="book-chapter-section" data-book-section=1>
+                <p class="book-chapter-section-paragraph" data-book-paragraph=1>
+                    <span class="book-chapter-section-paragraph-row" data-book-row=>
+                        <span>我是</span>
+                        <span>一个</span>
+                    </span>
+                </p>
+            </div>
+        </div>
+        <div class="book-chapter" data-book-chapter=>
+            <div class="book-chapter-section" data-book-section=>
+                <p class="book-chapter-section-paragraph" data-book-paragraph=>
+                    <span class="book-chapter-section-paragraph-row" data-book-page=1>
+                        <span>我是</span>
+                        <span>一个</span>
+                    </span>
+                    <span class="book-chapter-section-paragraph-row" data-book-row=>
+                        <span>我是</span>
+                        <span>一个</span>
+                    </span>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

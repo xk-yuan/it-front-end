@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+
+<!--
+1. 拼音注释
+2. 文章段落
+3. 段落首行缩进
+4. 段落格式: 行间距, 段落间距, 字间距
+5. 文章信息格式: 文章名称, 作者信息, 著作信息,
+-->
+
+<!-- 
+1. 实现东亚文字拼音
+ruby 标签
+[ruby](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/ruby)
+- rt 包含字符的发音，字符在 ruby 注解中出现，它用于描述东亚字符的发音
+- rp 用于为那些不能使用 <ruby> 元素展示 ruby 注解的浏览器，提供随后的圆括号
+- rb
+- rtc
+- rbc
+-->
+
+<head>
+    <title>文章拼音格式化</title>
+</head>
+
+<body>
+    <p><ruby>前端小学生<rt>qiánduāndàlǎo</rt></ruby></p>
+    <br/>
+    <p>
+        <ruby>前<rt>qián</rt></ruby>
+        <ruby>端<rt>duān</rt></ruby>
+    </p>
+
+    <ruby> 
+        汉<rp>(</rp><rt>han</rt><rp>)</rp>
+        字<rp>(</rp><rt>zi</rt><rp>)</rp> 
+    </ruby>
+
+    <ruby>
+        漢 <rp>(</rp><rt>han</rt><rp>)</rp>
+        字 <rp>(</rp><rt>zi</rt><rp>)</rp>
+      </ruby>
+</body>
+
+</html>

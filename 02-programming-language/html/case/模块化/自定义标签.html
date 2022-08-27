@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+
+<!--
+1. 自定义标签, 将公共内容 通过自定义标签包含
+-->
+
+<head>
+  <title>自定义标签</title>
+</head>
+
+<body>
+
+  <h1>a. 定义自定义标签</h1>
+
+  <text-pinyin>文字</text-pinyin>
+
+
+</body>
+
+<!-- 1. 定义 标签类 -->
+<script>
+  class PinyinText extends HTMLElement {
+    constructor() {
+      super();
+      // 1. 获取当前自定标签名称
+      console.log(this.tagName)
+      // 2. 获取当前设置的文本内容
+      console.log(this.textContent)
+      // 3. 获取属性值, 根据属性值查询 拼音数据
+
+      let shadow = this.attachShadow({ mode: 'open' });
+
+      // 对文本内容处理, 设置拼音
+      // <ruby>前<rt>qián</rt></ruby>
+      const ruby = document.createElement('ruby');
+      ruby.setAttribute('type', 'text');
+      // 
+      // shadow.textContent = 'bb';
+      // 
+      // p.setAttribute('type', 'text');
+    }
+
+    connectedCallback() {
+      // const defaultValue = this.getAttribute('defaultValue');
+      // console.log(this.shadowRoot.textContent)
+      // this.shadowRoot.textContent = 'aa';
+      // console.log(this.shadowRoot.textContent)
+      // const input = this.shadowRoot.querySelector('.input-value');
+      // input.value = defaultValue;
+    }
+  }
+
+  // declare var customElements: CustomElementRegistry;
+  customElements.define('text-pinyin', PinyinText);
+</script>
+
+</html>
