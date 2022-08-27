@@ -79,17 +79,17 @@ import { mapState } from 'vuex'
 
 ### 单向数据流图示
 
-![](../../imgs/1573628501312-848cf008-6181-44df-a621-ec1a8042803a.png#align=left&display=inline&height=505&originHeight=866&originWidth=1280&size=0&status=done&style=none&width=746)
+![](http://localhost/it/front-end/1573628501312-848cf008-6181-44df-a621-ec1a8042803a.png#align=left&display=inline&height=505&originHeight=866&originWidth=1280&size=0&status=done&style=none&width=746)
 
 ### 流程示意图
 
-![](../../imgs/1573628714860-49283ad0-b497-434c-b9e2-66398466208b.png#align=left&display=inline&height=551&originHeight=551&originWidth=701&size=0&status=done&style=none&width=701)
+![](http://localhost/it/front-end/1573628714860-49283ad0-b497-434c-b9e2-66398466208b.png#align=left&display=inline&height=551&originHeight=551&originWidth=701&size=0&status=done&style=none&width=701)
 
-![image.png](../../imgs/1578016895766-e5780832-ba8e-4bf6-8c0a-98b4510b973b.png#align=left&display=inline&height=650&name=image.png&originHeight=602&originWidth=691&size=231677&status=done&style=none&width=746)
+![image.png](http://localhost/it/front-end/1578016895766-e5780832-ba8e-4bf6-8c0a-98b4510b973b.png#align=left&display=inline&height=650&name=image.png&originHeight=602&originWidth=691&size=231677&status=done&style=none&width=746)
 
 ### 安装
 
-![image.png](../../imgs/1578016944686-608d66c4-8d5f-4680-bb11-3c5f0740ee59.png#align=left&display=inline&height=126&name=image.png&originHeight=135&originWidth=800&size=11587&status=done&style=none&width=746)
+![image.png](http://localhost/it/front-end/1578016944686-608d66c4-8d5f-4680-bb11-3c5f0740ee59.png#align=left&display=inline&height=126&name=image.png&originHeight=135&originWidth=800&size=11587&status=done&style=none&width=746)
 
 ```
 [安装配置]
@@ -133,4 +133,4 @@ new Vue({
 })
 ```
 
-![image.png](../../imgs/1578015641513-701e8051-8231-4235-8546-1d60ddebc8d8.png#align=left&display=inline&height=242&name=image.png&originHeight=312&originWidth=960&size=108247&status=done&style=none&width=746)
+![image.png](http://localhost/it/front-end/1578015641513-701e8051-8231-4235-8546-1d60ddebc8d8.png#align=left&display=inline&height=242&name=image.png&originHeight=312&originWidth=960&size=108247&status=done&style=none&width=746)

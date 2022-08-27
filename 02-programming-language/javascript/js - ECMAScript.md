@@ -68,4 +68,4 @@ ECMAScript 2016的制定工作已经启动，许多 草案 已被提交到委�
 
 ### 思维导图
 
-![](../../imgs/1572508174856-ed4332bf-5cc6-49da-8a6f-e9181e7faf2c.jpeg#align=left&display=inline&height=4344&originHeight=4344&originWidth=914&size=0&status=done&width=914)
+![](http://localhost/it/front-end/1572508174856-ed4332bf-5cc6-49da-8a6f-e9181e7faf2c.jpeg#align=left&display=inline&height=4344&originHeight=4344&originWidth=914&size=0&status=done&width=914)

@@ -34,11 +34,11 @@
 
 ### 前后端分离
 
-![](../../imgs/1565054688410-9f8fe785-22e1-4152-8fc5-1b6edd0dbdc9.webp#align=left&display=inline&height=370&originHeight=634&originWidth=1280&size=0&status=done&width=746)
+![](http://localhost/it/front-end/1565054688410-9f8fe785-22e1-4152-8fc5-1b6edd0dbdc9.webp#align=left&display=inline&height=370&originHeight=634&originWidth=1280&size=0&status=done&width=746)
 
-![](../../imgs/1565054726795-2a04449d-7a27-4fe9-8267-1ea80e214715.jpeg#align=left&display=inline&height=382&originHeight=708&originWidth=1384&size=0&status=done&width=746)
+![](http://localhost/it/front-end/1565054726795-2a04449d-7a27-4fe9-8267-1ea80e214715.jpeg#align=left&display=inline&height=382&originHeight=708&originWidth=1384&size=0&status=done&width=746)
 
-![](../../imgs/1565054750727-90b88a2d-0d50-4615-b1bb-8bf779519a96.webp#align=left&display=inline&height=556&originHeight=954&originWidth=1280&size=0&status=done&width=746)
+![](http://localhost/it/front-end/1565054750727-90b88a2d-0d50-4615-b1bb-8bf779519a96.webp#align=left&display=inline&height=556&originHeight=954&originWidth=1280&size=0&status=done&width=746)
 
 | 类目 | Node.js | PHP | Go | Java |
 | --- | --- | --- | --- | --- |

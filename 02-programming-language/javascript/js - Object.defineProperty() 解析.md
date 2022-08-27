@@ -109,4 +109,4 @@ Object.defineProperty(obj, "k2", {
 // obj.k2             取值操作时, 触发 get 执行
 ```
 
-![](../../imgs/1574088648735-1ea1d759-9722-4ff9-a8fa-b16afd4d5b0f.webp#align=left&display=inline&height=1114&originHeight=1114&originWidth=1224&size=0&status=done&width=1224)
+![](http://localhost/it/front-end/1574088648735-1ea1d759-9722-4ff9-a8fa-b16afd4d5b0f.webp#align=left&display=inline&height=1114&originHeight=1114&originWidth=1224&size=0&status=done&width=1224)

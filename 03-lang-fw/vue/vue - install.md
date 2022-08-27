@@ -120,15 +120,15 @@ vue-cli-demo
 
 ```
 
-![image.png](../../imgs//1579445408025-e30d7f8f-7302-45d8-99a8-9aa210521ca0.png#align=left&display=inline&height=305&name=image.png&originHeight=302&originWidth=738&size=16826&status=done&style=none&width=746)
+![image.png](http://localhost/it/front-end//1579445408025-e30d7f8f-7302-45d8-99a8-9aa210521ca0.png#align=left&display=inline&height=305&name=image.png&originHeight=302&originWidth=738&size=16826&status=done&style=none&width=746)
 
-![image.png](../../imgs//1579446177247-64e1df6e-de9b-46d4-945b-a23777ceae4c.png#align=left&display=inline&height=207&name=image.png&originHeight=207&originWidth=1606&size=30966&status=done&style=none&width=1606)
+![image.png](http://localhost/it/front-end//1579446177247-64e1df6e-de9b-46d4-945b-a23777ceae4c.png#align=left&display=inline&height=207&name=image.png&originHeight=207&originWidth=1606&size=30966&status=done&style=none&width=1606)
 
-![image.png](../../imgs//1579446216201-3e09b4df-2c16-4223-8404-3ea6b67593e1.png#align=left&display=inline&height=256&name=image.png&originHeight=256&originWidth=1024&size=21794&status=done&style=none&width=1024)
+![image.png](http://localhost/it/front-end//1579446216201-3e09b4df-2c16-4223-8404-3ea6b67593e1.png#align=left&display=inline&height=256&name=image.png&originHeight=256&originWidth=1024&size=21794&status=done&style=none&width=1024)
 
-![image.png](../../imgs//1579446245659-01e10336-7b64-4691-97dc-ca740442d2d8.png#align=left&display=inline&height=355&name=image.png&originHeight=355&originWidth=1315&size=36081&status=done&style=none&width=1315)
+![image.png](http://localhost/it/front-end//1579446245659-01e10336-7b64-4691-97dc-ca740442d2d8.png#align=left&display=inline&height=355&name=image.png&originHeight=355&originWidth=1315&size=36081&status=done&style=none&width=1315)
 
-![image.png](../../imgs//1579446273080-1ca53c7f-ae43-4579-b60c-6ea725421faa.png#align=left&display=inline&height=354&name=image.png&originHeight=282&originWidth=595&size=11465&status=done&style=none&width=746)
+![image.png](http://localhost/it/front-end//1579446273080-1ca53c7f-ae43-4579-b60c-6ea725421faa.png#align=left&display=inline&height=354&name=image.png&originHeight=282&originWidth=595&size=11465&status=done&style=none&width=746)
 
 node install  [[vue-demo]](https://github.com/xknower/vue-demo)
 

@@ -7,7 +7,7 @@
 ```
 
 
-![image.png](../../imgs/1594777842608-1ad57486-d4e7-4a1d-a257-c5fc391fee66.png#align=left&display=inline&height=422&margin=%5Bobject%20Object%5D&name=image.png&originHeight=422&originWidth=1107&size=49516&status=done&style=none&width=1107)
+![image.png](http://localhost/it/front-end/1594777842608-1ad57486-d4e7-4a1d-a257-c5fc391fee66.png#align=left&display=inline&height=422&margin=%5Bobject%20Object%5D&name=image.png&originHeight=422&originWidth=1107&size=49516&status=done&style=none&width=1107)
 
 
 ### 挂载

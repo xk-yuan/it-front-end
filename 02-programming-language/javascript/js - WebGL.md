@@ -30,7 +30,7 @@
 
     WebGL 1.0基于OpenGL ES 2.0，并提供了3D图形的API。它使用HTML5Canvas并允许利用文档对象模型接口。WebGL 2.0基于OpenGL ES 3.0，确保了提供许多选择性的WebGL 1.0扩展，并引入新的API。
 
-![image.png](../../imgs/1572944675566-356d528d-ce15-4e7c-99b5-eab60d38f093.png#align=left&display=inline&height=306&name=image.png&originHeight=514&originWidth=1253&size=399828&status=done&width=746)
+![image.png](http://localhost/it/front-end/1572944675566-356d528d-ce15-4e7c-99b5-eab60d38f093.png#align=left&display=inline&height=306&name=image.png&originHeight=514&originWidth=1253&size=399828&status=done&width=746)
 
 ### 历史标准
 

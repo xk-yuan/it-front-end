@@ -1,4 +1,4 @@
-![image.png](../../imgs/1572484922874-834d5f2f-1e71-4b3a-a8d5-f8009f280106.png#align=left&display=inline&height=148&margin=%5Bobject%20Object%5D&name=image.png&originHeight=201&originWidth=1015&size=57556&status=done&style=none&width=746)
+![image.png](http://localhost/it/front-end/1572484922874-834d5f2f-1e71-4b3a-a8d5-f8009f280106.png#align=left&display=inline&height=148&margin=%5Bobject%20Object%5D&name=image.png&originHeight=201&originWidth=1015&size=57556&status=done&style=none&width=746)
 
 
 ```
@@ -65,7 +65,7 @@
 ### 组成部分 - 浏览器端(H5端)
 
 
-![](../../imgs/1572484118452-b87d5ede-6a1e-4e76-83e9-67707c377507.gif#align=left&display=inline&height=316&margin=%5Bobject%20Object%5D&originHeight=106&originWidth=250&size=0&status=done&style=none&width=746)
+![](http://localhost/it/front-end/1572484118452-b87d5ede-6a1e-4e76-83e9-67707c377507.gif#align=left&display=inline&height=316&margin=%5Bobject%20Object%5D&originHeight=106&originWidth=250&size=0&status=done&style=none&width=746)
 
 
 ```

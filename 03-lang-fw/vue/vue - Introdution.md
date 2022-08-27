@@ -382,7 +382,7 @@ Vue.directive('runoob', function (el, binding) {
 -----------------------------------------------------------------------------------------------------------------------
 ### v-model - 输入数据与双向绑定
 
-![](../../imgs/1571802074643-2a370381-905f-4c63-b359-826cc8d873d0.png#align=left&display=inline&height=396&originHeight=372&originWidth=700&size=0&status=done&style=none&width=746)
+![](http://localhost/it/front-end/1571802074643-2a370381-905f-4c63-b359-826cc8d873d0.png#align=left&display=inline&height=396&originHeight=372&originWidth=700&size=0&status=done&style=none&width=746)
 
 ```
 [用户输入]

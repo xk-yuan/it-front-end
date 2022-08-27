@@ -21,13 +21,13 @@ JavaScript的所有全局对象、全局方法和全局变量全都自动被归�
 
     使用BOM可以控制浏览器显示的页面以外的部分。HTML5致力于把很多BOM功能写入正式规范。从根本上讲，BOM只处理浏览器窗口和框架，但人们习惯上也把所有针对浏览器的JavaScript扩展算作BOM的一部分。
 
-![image.png](../imgs/1572564461443-db996128-cc1d-4388-9d73-201c9e039d7b.png#align=left&display=inline&height=230&name=image.png&originHeight=160&originWidth=518&size=17206&status=done&width=746)
+![image.png](http://localhost/it/front-end/1572564461443-db996128-cc1d-4388-9d73-201c9e039d7b.png#align=left&display=inline&height=230&name=image.png&originHeight=160&originWidth=518&size=17206&status=done&width=746)
 
-![image.png](../imgs/1572564543064-bb89998e-9fdd-40db-a4b7-2e994c8b9312.png#align=left&display=inline&height=81&name=image.png&originHeight=126&originWidth=1166&size=28020&status=done&width=746)
+![image.png](http://localhost/it/front-end/1572564543064-bb89998e-9fdd-40db-a4b7-2e994c8b9312.png#align=left&display=inline&height=81&name=image.png&originHeight=126&originWidth=1166&size=28020&status=done&width=746)
 
 ### 对象层次结构
 
-![image.png](../imgs/1572565704552-be4cd87c-b7eb-460d-8c58-800c93d041e8.png#align=left&display=inline&height=419&name=image.png&originHeight=361&originWidth=643&size=79402&status=done&width=746)
+![image.png](http://localhost/it/front-end/1572565704552-be4cd87c-b7eb-460d-8c58-800c93d041e8.png#align=left&display=inline&height=419&name=image.png&originHeight=361&originWidth=643&size=79402&status=done&width=746)
 
 ```
 [window]

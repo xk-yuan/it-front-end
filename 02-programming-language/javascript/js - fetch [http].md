@@ -1,5 +1,5 @@
 
-![image.png](../../imgs/1573368213610-de09fcd4-cc6d-4c92-b7f6-4ab37a9ab98e.png)
+![image.png](http://localhost/it/front-end/1573368213610-de09fcd4-cc6d-4c92-b7f6-4ab37a9ab98e.png)
 
 
 ```javascript

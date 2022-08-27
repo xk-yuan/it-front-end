@@ -73,7 +73,7 @@ _
 
     可以将多种静态资源 js、css、less 转换成一个静态文件，减少了页面的请求。
 
-![](../../imgs/1544626597868-423e2dc9-1166-4081-934f-0c323405e41d.png#align=left&display=inline&height=413&originHeight=1299&originWidth=2598&status=done&style=none&width=826)
+![](http://localhost/it/front-end/1544626597868-423e2dc9-1166-4081-934f-0c323405e41d.png#align=left&display=inline&height=413&originHeight=1299&originWidth=2598&status=done&style=none&width=826)
 
 ```basic
 [入口 Entry]

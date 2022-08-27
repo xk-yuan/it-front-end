@@ -2,7 +2,7 @@
 
 
 
-![image.png](../../imgs/1573369315062-688633cf-7455-4110-8627-3f80af058244.png#align=left&display=inline&height=224&margin=%5Bobject%20Object%5D&name=image.png&originHeight=215&originWidth=717&size=49949&status=done&style=none&width=746)
+![image.png](http://localhost/it/front-end/1573369315062-688633cf-7455-4110-8627-3f80af058244.png#align=left&display=inline&height=224&margin=%5Bobject%20Object%5D&name=image.png&originHeight=215&originWidth=717&size=49949&status=done&style=none&width=746)
 
 
 ```

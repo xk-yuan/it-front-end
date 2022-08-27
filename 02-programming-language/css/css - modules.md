@@ -3,7 +3,7 @@
 
   **为了解决，CSS 像编程语言来书写，其经历了 ：Less 、SASS(SCSS) 、Stylus [css预处理器] -> PostCSS [插件系统] -> CSS in JS 、 CSS Modules**
 
-![image.png](../../imgs/1572945671994-68e7c616-dcac-461e-ad74-e243689990bc.png#align=left&display=inline&height=489&name=image.png&originHeight=452&originWidth=689&size=124487&status=done&width=746)
+![image.png](http://localhost/it/front-end/1572945671994-68e7c616-dcac-461e-ad74-e243689990bc.png#align=left&display=inline&height=489&name=image.png&originHeight=452&originWidth=689&size=124487&status=done&width=746)
 
 ```
 [CSS Modules]

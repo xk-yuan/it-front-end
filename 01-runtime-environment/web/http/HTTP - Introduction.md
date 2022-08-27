@@ -47,7 +47,7 @@ MIME Type
 
 ```
 
-![](../imgs/1573084188429-89028157-093d-4ef6-b540-32670f58f1b4.png#align=left&display=inline&height=249&originHeight=401&originWidth=1200&size=0&status=done&width=746)
+![](http://localhost/it/front-end/1573084188429-89028157-093d-4ef6-b540-32670f58f1b4.png#align=left&display=inline&height=249&originHeight=401&originWidth=1200&size=0&status=done&width=746)
 
 ### 客户端请求 [请求行（request line）、请求头部（header）、空行、请求数据]
 
@@ -59,9 +59,9 @@ MIME Type
 | **请求体** | -- | -- | -- |  |
 
 
-![](../imgs/1573046024109-9b3c2cc6-1e66-40bb-aa7e-a5a1050c427d.png#align=left&display=inline&height=264&originHeight=165&originWidth=466&size=0&status=done&width=746)
+![](http://localhost/it/front-end/1573046024109-9b3c2cc6-1e66-40bb-aa7e-a5a1050c427d.png#align=left&display=inline&height=264&originHeight=165&originWidth=466&size=0&status=done&width=746)
 
-![image.png](../imgs/1573049288205-489fc3fa-f36c-4b83-b56d-7fdbd643629d.png#align=left&display=inline&height=399&name=image.png&originHeight=373&originWidth=697&size=69671&status=done&width=746)
+![image.png](http://localhost/it/front-end/1573049288205-489fc3fa-f36c-4b83-b56d-7fdbd643629d.png#align=left&display=inline&height=399&name=image.png&originHeight=373&originWidth=697&size=69671&status=done&width=746)
 
 ```
 GET /hello.txt HTTP/1.1
@@ -105,7 +105,7 @@ Referer 可用于识别用户访问位置
 | **响应体** | -- | -- | -- | -- |
 
 
-![](../imgs/1573046057501-e7c5e513-c669-4b84-8263-a5675deb64d6.jpeg#align=left&display=inline&height=333&originHeight=305&originWidth=683&size=0&status=done&width=746)
+![](http://localhost/it/front-end/1573046057501-e7c5e513-c669-4b84-8263-a5675deb64d6.jpeg#align=left&display=inline&height=333&originHeight=305&originWidth=683&size=0&status=done&width=746)
 
 ```
 HTTP/1.1 200 OK
@@ -120,7 +120,7 @@ Content-Type: text/plain
 
 ```
 
-![](../imgs/1573084165894-f11f70dd-783a-44be-a641-7acb9ced9514.jpeg#align=left&display=inline&height=739&originHeight=1588&originWidth=1602&size=0&status=done&width=746)
+![](http://localhost/it/front-end/1573084165894-f11f70dd-783a-44be-a641-7acb9ced9514.jpeg#align=left&display=inline&height=739&originHeight=1588&originWidth=1602&size=0&status=done&width=746)
 
 ### 历史版本
 

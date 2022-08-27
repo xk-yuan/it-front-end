@@ -1,4 +1,4 @@
-![image.png](../imgs/1573046979850-8972cdeb-da80-4d1e-b635-78ecb73cc7f9.png#align=left&display=inline&height=252&name=image.png&originHeight=204&originWidth=605&size=19124&status=done&width=746)
+<!-- ![image.png](http://localhost/it/front-end/1573046979850-8972cdeb-da80-4d1e-b635-78ecb73cc7f9.png#align=left&display=inline&height=252&name=image.png&originHeight=204&originWidth=605&size=19124&status=done&width=746) -->
 
 ```
 [Content-Type]

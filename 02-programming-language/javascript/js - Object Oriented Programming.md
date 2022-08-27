@@ -182,4 +182,4 @@ var s = Object.create(b)
 	: __proto__
 ```
 
-![image.png](../../imgs/1574123125245-e2e265c6-4240-465a-9f5e-7453417365f5.png#align=left&display=inline&height=725&name=image.png&originHeight=583&originWidth=600&size=74242&status=done&style=none&width=746)
+![image.png](http://localhost/it/front-end/1574123125245-e2e265c6-4240-465a-9f5e-7453417365f5.png#align=left&display=inline&height=725&name=image.png&originHeight=583&originWidth=600&size=74242&status=done&style=none&width=746)

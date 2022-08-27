@@ -16,9 +16,9 @@
 
 ### SSL / TLS
 
-![](../imgs/1573083969721-da71bd96-ce69-41d2-b940-5e2f5264a090.png#align=left&display=inline&height=400&originHeight=359&originWidth=669&size=0&status=done&width=746)
+![](http://localhost/it/front-end/1573083969721-da71bd96-ce69-41d2-b940-5e2f5264a090.png#align=left&display=inline&height=400&originHeight=359&originWidth=669&size=0&status=done&width=746)
 
-![](../imgs/1573084000299-f5006211-1ead-4ea4-9f34-e8123bf04510.png#align=left&display=inline&height=967&originHeight=609&originWidth=470&size=0&status=done&width=746)
+![](http://localhost/it/front-end/1573084000299-f5006211-1ead-4ea4-9f34-e8123bf04510.png#align=left&display=inline&height=967&originHeight=609&originWidth=470&size=0&status=done&width=746)
 
     安全套接层 Secure Socket Layer ，SSL , 基于HTTPS下的一个协议加密层，最初是由网景公司（Netscape）研发，后被IETF（The Internet Engineering Task Force - 互联网工程任务组）标准化后写入（RFCRequest For Comments 请求注释）。
 

@@ -7,7 +7,7 @@ GET 果真不能通过 Request Body 来传送数据吗？
 
 如此想法多半是因循着网页中 form 的 method 属性只有 get 与 post 两种而来。因为把 form 的 method 设置为 post，表单数据会放在 body 中，而 method 为 get(默认值) 时，提交时浏览器会把表单中的字符拼接到 action 的 URL 后作为 query parameter 传送。
 
-![](../imgs/1567587942644-470c5be9-6257-405a-ac5a-41f1f2ffe427.jpeg#align=left&display=inline&height=995&originHeight=640&originWidth=480&size=0&status=done&width=746)
+![](http://localhost/it/front-end/1567587942644-470c5be9-6257-405a-ac5a-41f1f2ffe427.jpeg#align=left&display=inline&height=995&originHeight=640&originWidth=480&size=0&status=done&width=746)
 
 
 GET vs POST
@@ -68,7 +68,7 @@ public class DemoControllerTest {
 
 再作一个验证，curl 命令, 需要用 -X 指定为 GET 请求，否则 curl 在使用 -d 发送 body 数据时自动切换为 POST 请求：
 
-![](../imgs/1567587942625-c90cdf5c-2511-478c-be22-e76e6ddeb79e.jpeg#align=left&display=inline&height=664&originHeight=664&originWidth=740&size=0&status=done&width=740)
+![](http://localhost/it/front-end/1567587942625-c90cdf5c-2511-478c-be22-e76e6ddeb79e.jpeg#align=left&display=inline&height=664&originHeight=664&originWidth=740&size=0&status=done&width=740)
 
 curl
 
@@ -76,7 +76,7 @@ curl
 
 下面是通过 Wireshark 捕获到的数据包的样子：
 
-![](../imgs/1567587942646-6a642b0e-ce91-44a3-a1f5-9abd0464a345.jpeg#align=left&display=inline&height=749&originHeight=749&originWidth=1099&size=0&status=done&width=1099)
+![](http://localhost/it/front-end/1567587942646-6a642b0e-ce91-44a3-a1f5-9abd0464a345.jpeg#align=left&display=inline&height=749&originHeight=749&originWidth=1099&size=0&status=done&width=1099)
 
 
 Wireshark
@@ -92,7 +92,7 @@ Wireshark
 
 如著名的 Postman，在选择 GET 时 Body 标签是灰色不可用的：
 
-![](../imgs/1567587942661-92e51f96-84f0-4853-b854-7698ed68644b.jpeg#align=left&display=inline&height=416&originHeight=416&originWidth=766&size=0&status=done&width=766)
+![](http://localhost/it/front-end/1567587942661-92e51f96-84f0-4853-b854-7698ed68644b.jpeg#align=left&display=inline&height=416&originHeight=416&originWidth=766&size=0&status=done&width=766)
 Postman
 
 而且从目前最新的 Apache Http Client 4.5 组件，它的 HttpGet 也不支持设置 Request Body, 因为 HttpGet 没有像 HttpPost 那样的 setEntity(entity) 方法。

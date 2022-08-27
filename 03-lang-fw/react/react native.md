@@ -54,10 +54,10 @@
 
 ```
 
-![image.png](../../imgs/1563408484946-bf97b4df-d09e-43a8-820a-95dc5be893a8.png#align=left&display=inline&height=156&name=image.png&originHeight=77&originWidth=369&size=3084&status=done&width=746)
+![image.png](http://localhost/it/front-end/1563408484946-bf97b4df-d09e-43a8-820a-95dc5be893a8.png#align=left&display=inline&height=156&name=image.png&originHeight=77&originWidth=369&size=3084&status=done&width=746)
 
-![image.png](../../imgs/1563408582769-54ac2dbb-1623-4dd4-b502-a62852668f92.png#align=left&display=inline&height=741&name=image.png&originHeight=953&originWidth=960&size=73143&status=done&width=746)
+![image.png](http://localhost/it/front-end/1563408582769-54ac2dbb-1623-4dd4-b502-a62852668f92.png#align=left&display=inline&height=741&name=image.png&originHeight=953&originWidth=960&size=73143&status=done&width=746)
 
-![image.png](../../imgs/1563408612040-93ca9755-77e2-4c8c-8ae4-ce0c321e2d85.png#align=left&display=inline&height=518&name=image.png&originHeight=522&originWidth=752&size=25758&status=done&width=746)
+![image.png](http://localhost/it/front-end/1563408612040-93ca9755-77e2-4c8c-8ae4-ce0c321e2d85.png#align=left&display=inline&height=518&name=image.png&originHeight=522&originWidth=752&size=25758&status=done&width=746)
 
 

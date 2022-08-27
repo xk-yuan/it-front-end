@@ -41,7 +41,7 @@
 
 ### 生命周期图
 
-![lifecycle.png](../../imgs/1571497018890-717acba5-a1b3-45d5-a264-f1ab70ad8c22.png#align=left&display=inline&height=1889&name=lifecycle.png&originHeight=3039&originWidth=1200&size=77677&status=done&style=none&width=746)
+![lifecycle.png](http://localhost/it/front-end/1571497018890-717acba5-a1b3-45d5-a264-f1ab70ad8c22.png#align=left&display=inline&height=1889&name=lifecycle.png&originHeight=3039&originWidth=1200&size=77677&status=done&style=none&width=746)
 
 ### API
 

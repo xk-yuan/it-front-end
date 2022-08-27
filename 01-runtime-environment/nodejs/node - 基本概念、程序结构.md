@@ -18,7 +18,7 @@ function foo2(value, callback1, callback2) { }
 
 事件驱动模型，(events 事件模块)
 
-![image.png](../../imgs/1558538412733-9b2f12f5-4c7a-4762-8688-283273dcf1e6.png#align=left&display=inline&height=252&name=image.png&originHeight=252&originWidth=626&size=67081&status=done&width=626)
+![image.png](http://localhost/it/front-end/1558538412733-9b2f12f5-4c7a-4762-8688-283273dcf1e6.png#align=left&display=inline&height=252&name=image.png&originHeight=252&originWidth=626&size=67081&status=done&width=626)
 
   所有异步操作都会发往 事件队列，EventEmitter 类。EventEmitter 的核心就是事件触发与事件监听器功能的封装。
 
@@ -333,7 +333,7 @@ console.log("程序执行完毕");
 
 提供了一个输出流到输入流的机制。通常我们用于从一个流中获取数据并将数据传递到另外一个流中
 
-![image.png](../../imgs/1558568658139-8f666e22-8b86-4565-914e-943eccce90fe.png#align=left&display=inline&height=398&name=image.png&originHeight=398&originWidth=397&size=20873&status=done&width=397)
+![image.png](http://localhost/it/front-end/1558568658139-8f666e22-8b86-4565-914e-943eccce90fe.png#align=left&display=inline&height=398&name=image.png&originHeight=398&originWidth=397&size=20873&status=done&width=397)
 
 ```javascript
 // 读取一个文件内容并将内容写入到另外一个文件中
@@ -438,7 +438,7 @@ hello.sayHello();
 
 #### 模块 - 存在 4 类模块（原生模块和3种文件模块）
 
-![image.png](../../imgs/1558569286029-2c80185c-319e-4968-b307-d317d4a76d03.png#align=left&display=inline&height=601&name=image.png&originHeight=601&originWidth=479&size=91217&status=done&width=479)
+![image.png](http://localhost/it/front-end/1558569286029-2c80185c-319e-4968-b307-d317d4a76d03.png#align=left&display=inline&height=601&name=image.png&originHeight=601&originWidth=479&size=91217&status=done&width=479)
 
 ```javascript
 [模块类别]

@@ -13,6 +13,6 @@
 
 ```
 
-![](../../imgs/1571929581620-8e8ff0a9-4ca7-4131-9867-643e686aac6f.png#align=left&display=inline&height=456&originHeight=326&originWidth=533&size=0&status=done&width=746)
+![](http://localhost/it/front-end/1571929581620-8e8ff0a9-4ca7-4131-9867-643e686aac6f.png#align=left&display=inline&height=456&originHeight=326&originWidth=533&size=0&status=done&width=746)
 
-![](../../imgs/1571930625693-d548b7d3-a39f-46e5-ada5-15040b2d446d.webp#align=left&display=inline&height=177&originHeight=285&originWidth=1200&size=0&status=done&width=746)
+![](http://localhost/it/front-end/1571930625693-d548b7d3-a39f-46e5-ada5-15040b2d446d.webp#align=left&display=inline&height=177&originHeight=285&originWidth=1200&size=0&status=done&width=746)
