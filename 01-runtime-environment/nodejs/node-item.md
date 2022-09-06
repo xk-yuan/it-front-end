@@ -8,6 +8,8 @@
 
 ## 资源
 
+### workspaces-multi-packages & workspaces-multi-project
+
 > [如何创建一个NodeJs命令行交互项目](https://blog.51cto.com/u_15067238/4000251)
 
 > [使用 Typescript 开发 Nodejs 命令行工具](https://blog.51cto.com/u_15127603/2754372)
@@ -34,6 +36,8 @@
 > [实践 Monorepo 模式两年多的一些总结](https://zhuanlan.zhihu.com/p/516546403)
 >
 > [什么是 monorepo](https://www.kancloud.cn/chandler/web_technology/2625186)
+
+> [lerna](https://lerna.js.org/)
 
 ## 项目架构
 
