@@ -1,76 +1,70 @@
+# 数据类型 & 原生对象 & 基本库
+
+>
+
+## 资源
+
+## 简介
+
+> 数值 number | 字符串 string | 布尔值 boolean | 对象 object | Symbol | 未定义或不存在 undefined  | 空值 null
+
+- 数值 number & Number对象
+- 字符串 string & String对象
+- 对象 object & Object对象
+- 数组 array & Array对象
+- 函数 function
+
+> 属性描述对象 Attributes Object
+
+- JS 内部数据结构, 用来描述对象的属性，控制它的行为，比如该属性是否可写、可遍历等等。每个属性都有自己对应的属性描述对象，保存该属性的一些元信息
+
+> 元属性 (可以看作是控制属性的属性)
+
+- value    是该属性的属性值, 默认为undefined
+- writable 是一个布尔值, 表示属性值(value) 是否可写, 默认为true
+- enumerable   布尔值, 表示该属性是否可遍历, 默认为true
+- configurable 布尔值, 表示可配置性，默认为 true。设为 false, 将阻止某些操作改写该属性, configurable 属性控制了属性描述对象的可写性；比如无法删除该属性, 也不得改变该属性的属性描述对象(value属性除外)
+- get 函数, 表示该属性的取值函数 (getter), 默认为undefined
+- set 函数< 表示该属性的存值函数 (setter), 默认为undefined
+
+- Object.getOwnPropertyDescriptor() 获取属性描述对象, 只能用于对象自身的属性, 不能用于继承的属性
+- Object.getOwnPropertyNames() 返回一个数组, 成员是参数对象自身的全部属性的属性名, 不管该属性是否可遍历
+- Object.defineProperty() 通过属性描述对象, 定义或修改一个属性, 然后返回修改后的对象。object 属性所在的对象 , propertyName 属性名, attributesObject 属性描述对象
+- Object.defineProperties() 一次性定义或修改多个属性。一旦定义了取值函数get(或存值函数set), 就不能将writable属性设为true, 或者同时定义value属性
+- Object.prototype.propertyIsEnumerable() 布尔值, 用来判断某个属性是否可遍历
+
+> 存取器, 属性定义了存取器，那么存取的时候，都将执行对应的函数
+
+> 对象的拷贝 (Object.defineProperty + Object.getOwnPropertyDescriptor + hasOwnProperty())
+
+> 控制对象状态, 冻结对象的读写状态，防止对象被改变
+
+- Object.preventExtensions() 对象无法再添加新的属性
+- Object.isExtensible() 检查一个对象是否使用了Object.preventExtensions方法
+- Object.seal() 使得一个对象既无法添加新属性，也无法删除旧属性
+  - 实质是把属性描述对象的configurable属性设为false, 因此属性描述对象不再能改变
+  - 只是禁止新增或删除属性, 并不影响修改某个属性的值
+- Object.isSealed() 用于检查一个对象是否使用了Object.seal方法
+- Object.freeze() 使得一个对象无法添加新属性、无法删除旧属性、也无法改变属性的值
+  - 使得这个对象实际上变成了常量
+- Object.isFrozen() 用于检查一个对象是否使用了Object.freeze方法
+  - !局限性, 上面三个方法问题在于, 可以通过改变原型对象, 来为对象增加属性
+  - 如果属性值是对象< 上面这些方法只能冻结属性指向的对象, 而不能冻结对象本身的内容
+
+
+### 数值 number & Number对象
+
+> 数值 number
+
+- JavaScript 内部, 所有数字都是以64位浮点数形式储存, 即使整数也是如此。
+- NaN、Infinity
+- Number.MAX_VALUE、Number.MIN_VALUE
+
+- parseInt()、parseFloat()、isNaN()、isFinite()
+
+> Number对象
 
 ```javascript
-[]
-
-	# 数值 number | 字符串 string | 布尔值 boolean | 对象 object | Symbol | 未定义或不存在 undefined  | 空值 null
-
-	: 数值 number & Number对象
-
-	: 字符串 string & String对象
-
-	: 对象 object & Object对象
-
-	: 数组 array & Array对象
-
-	: 函数 function
-
-[属性描述对象 Attributes Object]
-
-	: JS 内部数据结构, 用来描述对象的属性，控制它的行为，比如该属性是否可写、可遍历等等
-	// 每个属性都有自己对应的属性描述对象，保存该属性的一些元信息
-
-	# 元属性 (可以看作是控制属性的属性)
-  value    是该属性的属性值, 默认为undefined
-	writable 是一个布尔值, 表示属性值(value) 是否可写, 默认为true
-	enumerable   布尔值, 表示该属性是否可遍历, 默认为true
-	configurable 布尔值, 表示可配置性，默认为 true
-  // 设为 false, 将阻止某些操作改写该属性, configurable 属性控制了属性描述对象的可写性
-  // 比如无法删除该属性, 也不得改变该属性的属性描述对象(value属性除外)
-	get 函数, 表示该属性的取值函数 (getter), 默认为undefined
-	set 函数< 表示该属性的存值函数 (setter), 默认为undefined
-
-	#
-  Object.getOwnPropertyDescriptor() 获取属性描述对象, 只能用于对象自身的属性, 不能用于继承的属性
-	Object.getOwnPropertyNames() 返回一个数组, 成员是参数对象自身的全部属性的属性名, 不管该属性是否可遍历
-	Object.defineProperty() 通过属性描述对象, 定义或修改一个属性, 然后返回修改后的对象
-	// object 属性所在的对象 , propertyName 属性名, attributesObject 属性描述对象
-	Object.defineProperties() 一次性定义或修改多个属性
-  // 一旦定义了取值函数get(或存值函数set), 就不能将writable属性设为true, 或者同时定义value属性
-	Object.prototype.propertyIsEnumerable() 布尔值, 用来判断某个属性是否可遍历
-
-	# 存取器
-  // 属性定义了存取器，那么存取的时候，都将执行对应的函数
-
-  # 对象的拷贝 (Object.defineProperty + Object.getOwnPropertyDescriptor + hasOwnProperty())
-
-  # 控制对象状态
-  // 冻结对象的读写状态，防止对象被改变
-  Object.preventExtensions() 对象无法再添加新的属性
-  Object.isExtensible() 检查一个对象是否使用了Object.preventExtensions方法
-  Object.seal() 使得一个对象既无法添加新属性，也无法删除旧属性
-  // - 实质是把属性描述对象的configurable属性设为false, 因此属性描述对象不再能改变
-  // - 只是禁止新增或删除属性, 并不影响修改某个属性的值
-  Object.isSealed() 用于检查一个对象是否使用了Object.seal方法
-  Object.freeze() 使得一个对象无法添加新属性、无法删除旧属性、也无法改变属性的值
-  // - 使得这个对象实际上变成了常量
-  Object.isFrozen() 用于检查一个对象是否使用了Object.freeze方法
-	// !局限性, 上面三个方法问题在于, 可以通过改变原型对象, 来为对象增加属性
-  // 如果属性值是对象< 上面这些方法只能冻结属性指向的对象, 而不能冻结对象本身的内容
-
-```
-
-### [数值 number & Number对象]
-
-```javascript
-[数值 number]
-
-	# JavaScript 内部, 所有数字都是以64位浮点数形式储存, 即使整数也是如此。
-  # NaN、Infinity
-  # Number.MAX_VALUE、Number.MIN_VALUE
-
-  : parseInt()、parseFloat()、isNaN()、isFinite()
-
-[Number对象]
 
 	# Number对象是数值对应的包装对象，可以作为构造函数使用，也可以作为工具函数使用
   

@@ -280,6 +280,6 @@ module.exports = {
 
 所有的标题将会自动地应用 anchor 链接，anchor 的渲染可以通过 markdown.anchor 来配置。
 
-网站内部的链接，将会被转换成 <router-link> 用于 SPA 导航。同时，站内的每一个文件夹下的 README.md 或者 index.md 文件都会被自动编译为 index.html，对应的链接将被视为 / 。可以通过官方插件 vuepress-plugin-clean-urls (opens new window)定制你的网站路径。
+网站内部的链接，将会被转换成 router-link 用于 SPA 导航。同时，站内的每一个文件夹下的 README.md 或者 index.md 文件都会被自动编译为 index.html，对应的链接将被视为 / 。可以通过官方插件 vuepress-plugin-clean-urls (opens new window)定制你的网站路径。
 
 
